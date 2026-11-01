@@ -1,0 +1,12 @@
+[package]
+name = "angel-ear"
+version = "0.1.0"
+edition = "2021"
+description = "angelOS: hears the kick, snare, hats, beat and loudness of what plays"
+license = "MIT"
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
+strip = true
